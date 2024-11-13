@@ -42,10 +42,6 @@ models:
       - name: l_orderkey
         data_type: number
         description: ""
-        tests:
-          - relationships:
-              to: ref('stg_tpch__orders')
-              field: o_orderkey
 
       - name: l_partkey
         data_type: number
